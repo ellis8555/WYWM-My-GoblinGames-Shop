@@ -1,0 +1,128 @@
+<!-- checkout styles -->
+<link rel="stylesheet" href="../../styles/checkout.css" />
+<!-- checkout body that contains the contact form and items currently in cart -->
+<div class="container text-center">
+  <h1 class="mb-3">Goblin Store Checkout</h1>
+  <h6 class="mb-4 text-success">
+    Contact details required in order to submit order
+  </h6>
+  <div class="row">
+    <!-- form container -->
+    <div class="col-md-5 mb-3" id="checkoutForm">
+      <div class="rounded shadow p-3">
+        <!-- <h5 class="fw-semibold mb-3">Contact Details:</h5> -->
+        <!-- form begin -->
+        <form>
+          <fieldset id="shoppingCartFormFieldSet">
+            <legend>Contact Details:</legend>
+            <!-- first name input -->
+            <div class="form-floating mb-3">
+              <input
+                class="form-control"
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="First Name:"
+                aria-describedby="firstnamehelp"
+              />
+              <label for="firstname" class="form-label">First Name:</label>
+              <div class="invalid-feedback">Enter a valid name please</div>
+              <div class="valid-feedback">First name is good</div>
+              <div id="firstnamehelp" class="form-text">
+                Min 2 letters required
+              </div>
+            </div>
+            <!-- last name input -->
+            <div class="form-floating mb-3">
+              <input
+                class="form-control"
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Last Name:"
+                aria-describedby="lastnamehelp"
+              />
+              <label for="lastname" class="form-label">Last Name:</label>
+              <div class="invalid-feedback">Last name required</div>
+              <div class="valid-feedback">Last name is good</div>
+              <div id="lastnamehelp" class="form-text">
+                Min 2 letters required
+              </div>
+            </div>
+            <!-- email input -->
+            <div class="form-floating mb-3">
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                aria-describedby="emailhelp"
+              />
+              <label for="email" class="form-label">Email:</label>
+              <div id="emailhelp" class="form-text">
+                Valid email format required
+              </div>
+              <div class="invalid-feedback">Check your email's format</div>
+              <div class="valid-feedback">Email is good</div>
+            </div>
+            <!-- credit card input -->
+            <div class="form-floating mb-3">
+              <input
+                class="form-control"
+                type="tel"
+                inputmode="numeric"
+                id="ccn"
+                name="ccn"
+                placeholder="creditNumber"
+                aria-describedby="ccnHelp"
+                maxlength="19"
+                placeholder="xxxx xxxx xxxx xxxx"
+              />
+              <label for="ccn" class="form-label">Card Number:</label>
+              <div id="ccnHelp" class="form-text">Enter credit card number</div>
+              <div class="invalid-feedback">16 digits required</div>
+              <div class="valid-feedback">Number is valid</div>
+            </div>
+          </fieldset>
+        </form>
+        <!-- form end -->
+      </div>
+    </div>
+    <!-- items ordered container -->
+    <div class="col-md-7">
+      <div class="p-2 rounded shadow">
+        <h5 class="border-bottom mb-3 w-75 mx-auto fw-semibold">
+          Items in cart:
+        </h5>
+        <div class="w-75 mx-auto" id="checkoutItemList">
+          <!-- each item displayed here -->
+        </div>
+        <!-- shopping cart submit button and total price -->
+        <div
+          class="d-flex w-75 border-top pt-3 justify-content-between mx-auto"
+          id="submitCheckout"
+        >
+          <!-- submit order button -->
+          <div>
+            <button
+              type="button"
+              class="btn btn-warning"
+              id="submitOrder"
+              disabled
+            >
+              Submit order
+            </button>
+          </div>
+          <!-- Shopping cart total price -->
+          <div class="fw-semibold" id="shoppingCartTotal"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../../scripts/checkout/items/checkoutDisplayItems.js"></script>
+<script src="../../scripts/checkout/form/validateFormFields.js"></script>
+<script src="../../scripts/checkout/submit/submitOrder.js"></script>
+<script src="/dist/bundle.js"></script>

@@ -1,0 +1,36 @@
+/* game cards */
+
+#action-group, #sports-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* imgs inside game cards */
+
+[src*="rawg"] {
+    padding: .5rem;
+    height: 300px;
+    object-fit:cover;
+}
+
+/* RESPONSIVE */
+
+/* medium size screens game cards width increased and displayed as block */
+@media screen and (max-width: 991px) {
+    #action-group, #sports-group{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #action-group > div.card, #sports-group > div.card {
+        margin: auto;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}
+
+/* mobile screen card width reduced */
+
+    #action-group > div.card, #sports-group > div.card {
+        width: 75%
+    }
