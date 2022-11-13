@@ -70,6 +70,9 @@ getThreeRandomGamesData().then((data) => {
         });
       }
     });
+    // remove ..loading message
+    let loader = document.getElementById(`${category[i]}-loader`);
+    loader.remove();
   }
 });
 
