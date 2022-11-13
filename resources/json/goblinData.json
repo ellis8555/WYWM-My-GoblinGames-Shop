@@ -5,63 +5,63 @@
       "Name": "Supreme",
       "Price": "150",
       "Rating": "Gold",
-      "imgPath": "/resources/styles/pics/Gold/supremeGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Gold/supremeGoblin.png"
     },
     {
       "Product_ID": "2",
       "Name": "Magical",
       "Price": "125",
       "Rating": "Gold",
-      "imgPath": "/resources/styles/pics/Gold/magicalGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Gold/magicalGoblin.png"
     },
     {
       "Product_ID": "3",
       "Name": "Elite",
       "Price": "110",
       "Rating": "Gold",
-      "imgPath": "/resources/styles/pics/Gold/eliteGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Gold/eliteGoblin.png"
     },
     {
       "Product_ID": "4",
       "Name": "Joker",
       "Price": "80",
       "Rating": "Silver",
-      "imgPath": "/resources/styles/pics/Silver/jokerGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Silver/jokerGoblin.png"
     },
     {
       "Product_ID": "5",
       "Name": "Mage",
       "Price": "65",
       "Rating": "Silver",
-      "imgPath": "/resources/styles/pics/Silver/mageGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Silver/mageGoblin.png"
     },
     {
       "Product_ID": "6",
       "Name": "Dancing",
       "Price": "55",
       "Rating": "Silver",
-      "imgPath": "/resources/styles/pics/Silver/dancingGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Silver/dancingGoblin.png"
     },
     {
       "Product_ID": "7",
       "Name": "Sad",
       "Price": "35",
       "Rating": "Bronze",
-      "imgPath": "/resources/styles/pics/Bronze/sadGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Bronze/sadGoblin.png"
     },
     {
       "Product_ID": "8",
       "Name": "Broken",
       "Price": "25",
       "Rating": "Bronze",
-      "imgPath": "/resources/styles/pics/Bronze/brokenGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Bronze/brokenGoblin.png"
     },
     {
       "Product_ID": "9",
       "Name": "Crying",
       "Price": "15",
       "Rating": "Bronze",
-      "imgPath": "/resources/styles/pics/Bronze/cryingGoblin.png"
+      "imgPath": "/WYWM-My-GoblinGames-Shop/resources/styles/pics/Bronze/cryingGoblin.png"
     }
   ]
 }
