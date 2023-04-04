@@ -40,7 +40,7 @@ $(document).ready(function () {
                 <div class="me-2">
                   <img src="${
                     product.imgPath || product.background_image
-                  }"  class="img-thumbnail"/>
+                  }"  class="img-thumbnail" style="object-fit:contain;"/>
                 </div>
               <div id="actions">
                 <button class="btn btn-primary increaseQuantity" id="${
