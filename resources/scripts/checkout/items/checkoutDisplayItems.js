@@ -10,12 +10,14 @@ if (localStorage.getItem("items")) {
     productsDiv.classList = "d-flex align-items-center mb-3";
     // flex div that contains product image
     const imgDiv = document.createElement("div");
-    imgDiv.classList = "img-thumbnail shadow ms-3";
+    imgDiv.classList = "shadow ms-3";
     // create the image
     const img = document.createElement("img");
     // load image from localstorage
     img.src = item.imgPath || item.background_image;
     img.alt = `${item.Name || item.name} Goblin`;
+    img.classList = "img-thumbnail";
+    img.style.objectFit = "contain";
     // append the image to containing div
     imgDiv.append(img);
     productsDiv.append(imgDiv);
